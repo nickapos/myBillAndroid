@@ -17,8 +17,6 @@ package com.example.android.supportv13.app;
 
 import java.util.ArrayList;
 
-import com.example.android.supportv13.R;
-
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.Activity;
@@ -28,6 +26,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import com.example.android.supportv13.R;
 
 /**
  * This demonstrates the use of action bar tabs and how they interact
