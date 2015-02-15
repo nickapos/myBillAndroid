@@ -1,4 +1,4 @@
-package mybillandroid.oncrete.gr.mybillandroid;
+package mybillandroid.oncrete.gr.mybillandroid.Activities;
 
 import android.app.Activity;
 import android.os.Bundle;
