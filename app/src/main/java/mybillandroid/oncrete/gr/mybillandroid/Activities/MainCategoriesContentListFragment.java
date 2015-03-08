@@ -1,6 +1,7 @@
 package mybillandroid.oncrete.gr.mybillandroid.Activities;
 
 import android.app.Fragment;
+import android.app.ListFragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -42,4 +43,5 @@ public class MainCategoriesContentListFragment extends Fragment {
         mainMenuItems.setAdapter(arrayAdapter);
 
     }
+
 }
