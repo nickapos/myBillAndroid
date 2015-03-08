@@ -12,12 +12,12 @@ import android.widget.TextView;
  */
 
 
-public class TextFragment extends Fragment {
+public class MainCategoriesContentListFragment extends Fragment {
     TextView text, vers;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.text_fragment, container, false);
+        View view = inflater.inflate(R.layout.main_categories_content_list_fragment, container, false);
         text = (TextView) view.findViewById(R.id.AndroidOs);
         vers = (TextView) view.findViewById(R.id.Version);
         return view;

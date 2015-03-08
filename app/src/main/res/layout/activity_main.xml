@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/fragment"
-        class="mybillandroid.oncrete.gr.mybillandroid.Activities.MenuFragment"
+        class="mybillandroid.oncrete.gr.mybillandroid.Activities.MainCategoriesMenuFragment"
         android:layout_width="120px"
         android:layout_height="match_parent" />
 
     <fragment
         android:id="@+id/fragment2"
-        class="mybillandroid.oncrete.gr.mybillandroid.Activities.TextFragment"
+        class="mybillandroid.oncrete.gr.mybillandroid.Activities.MainCategoriesContentListFragment"
         android:layout_width="120px"
         android:layout_height="match_parent" />
 </LinearLayout>
