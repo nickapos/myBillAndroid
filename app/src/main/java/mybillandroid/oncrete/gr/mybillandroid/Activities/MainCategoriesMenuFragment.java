@@ -8,12 +8,16 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by nickapos on 08/03/15.
  */
 public class MainCategoriesMenuFragment extends ListFragment {
     String[] mainMenuItem = new String[]{"Expenses", "Income", "Companies", "Categories", "Reports"};
-    String[] Version = new String[]{"1.5", "1.6", "2.0-2.1", "2.2", "2.3"};
+    List<String> menuitemList = new ArrayList<String>();
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -27,7 +31,11 @@ public class MainCategoriesMenuFragment extends ListFragment {
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         MainCategoriesContentListFragment txt = (MainCategoriesContentListFragment) getFragmentManager().findFragmentById(R.id.fragment2);
-        txt.change(mainMenuItem[position], "Version : " + Version[position]);
+        //populate the menu item list
+        menuitemList.clear();
+        menuitemList.add("blah1");
+        menuitemList.add("blah2");
+        txt.change(mainMenuItem[position], menuitemList);
         getListView().setSelector(android.R.color.holo_blue_dark);
     }
 }

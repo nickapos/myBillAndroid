@@ -12,13 +12,12 @@
         android:textSize="40px"
         android:textColor="#ffffff"
         android:layout_gravity="center"
-        android:id="@+id/AndroidOs" />
+        android:id="@+id/MainMenuMessage" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ListView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="#ffffff"
-        android:textSize="30px"
-        android:id="@+id/Version" />
+        android:id="@+id/MainMenuListView"
+        android:layout_gravity="right" />
+
 </LinearLayout>
