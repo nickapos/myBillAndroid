@@ -2,11 +2,11 @@
 <resources>
 
     <string name="app_name">MyBillAndroid</string>
-    <string name="title_section1">Categories</string>
-    <string name="title_section2">Companies</string>
-    <string name="title_section3">Income</string>
-    <string name="title_section4">Expenses</string>
-    <string name="title_section5">Reports</string>
+    <string name="title_categories_section">Categories</string>
+    <string name="title_companies_section">Companies</string>
+    <string name="title_income_section">Income</string>
+    <string name="title_expenses_section">Expenses</string>
+    <string name="title_reports_section">Reports</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
 
