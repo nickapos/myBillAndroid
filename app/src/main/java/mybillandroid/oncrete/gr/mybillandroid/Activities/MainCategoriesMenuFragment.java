@@ -16,7 +16,10 @@ import java.util.List;
  * Created by nickapos on 08/03/15.
  */
 public class MainCategoriesMenuFragment extends ListFragment {
-
+    /*
+        this variable is initialized in onCreateView since it needs access to context in order for getString to work properly.
+        the context before that method is null
+     */
     String[] mainMenuItems;
 
 
