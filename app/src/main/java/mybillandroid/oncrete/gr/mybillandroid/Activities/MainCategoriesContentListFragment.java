@@ -26,14 +26,12 @@ public class MainCategoriesContentListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.main_categories_content_list_fragment, container, false);
-        mainMenu = (TextView) view.findViewById(R.id.MainMenuMessage);
         mainMenuItems = (ListView) view.findViewById(R.id.MainMenuListView);
         return view;
     }
 
-    public void change(String txt, List<String> txt1) {
-        mainMenu.setText(txt);
-        //mainMenuItems.setText(txt1);
+    public void change(List<String> txt1) {
+
         // This is the array adapter, it takes the context of the activity as a
         // first parameter, the type of list view as a second parameter and your
         // array as a third parameter.
