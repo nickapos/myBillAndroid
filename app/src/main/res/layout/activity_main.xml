@@ -6,14 +6,17 @@
     tools:context="com.amal.fragments.MainActivity">
 
     <fragment
-        android:id="@+id/fragment"
+        android:id="@+id/main_categories_menu_fragment"
         class="mybillandroid.oncrete.gr.mybillandroid.Activities.MainCategoriesMenuFragment"
-        android:layout_width="120px"
-        android:layout_height="match_parent" />
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.40"/>
 
     <fragment
-        android:id="@+id/fragment2"
-        class="mybillandroid.oncrete.gr.mybillandroid.Activities.MainCategoriesContentListFragment"
-        android:layout_width="120px"
-        android:layout_height="match_parent" />
+        android:id="@+id/main_categories_menu_content_fragment"
+        class="mybillandroid.oncrete.gr.mybillandroid.Activities.MainCategoriesMenuContentListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.60" />
+
 </LinearLayout>

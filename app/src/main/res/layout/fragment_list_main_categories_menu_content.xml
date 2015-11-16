@@ -6,10 +6,19 @@
     android:background="#5ba4e5"
     android:layout_height="match_parent">
 
+    <!--android:id="@+id/main_categories_menu_content_listView"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select desired action"
+        android:layout_gravity="top|center"/>
+
     <ListView
+        android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/MainMenuListView"
-        android:layout_gravity="right" />
+        android:layout_gravity="right"/>
 
 </LinearLayout>

@@ -3,6 +3,7 @@
     package="mybillandroid.oncrete.gr.mybillandroid.Activities">
 
     <application
+        android:name="mybillandroid.oncrete.gr.mybillandroid.BusinessLogic.MyBillApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -15,6 +16,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddContentActivityFragment"
+            android:label="@string/title_activity_add_content"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mybillandroid.oncrete.gr.mybillandroid.Activities.MainActivity" />
         </activity>
     </application>
 
